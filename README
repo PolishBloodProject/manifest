@@ -1,6 +1,6 @@
 Just do
 
-$ repo init -u https://github.com/PolishBloodProject/manifest.git
+$ repo init -u https://github.com/PolishBloodProject/manifest.git -b jb-4.2
 
 then
 
