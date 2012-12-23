@@ -345,7 +345,7 @@
 
 <!-- PBP manifest -->
 
-  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="master" />
+  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="jb-4.2" />
 
 <!-- changed stuff to work with our msm7x30 -->
 
