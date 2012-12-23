@@ -342,6 +342,10 @@
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
+<!-- PBP manifest -->
+
+  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="master" />
+
 <!-- changed stuff to work with our msm7x30 -->
 
   <project path="device/common" name="Andromadus/android_device_common" remote="github" revision="jb4.2" />
