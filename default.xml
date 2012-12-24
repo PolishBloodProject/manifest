@@ -69,7 +69,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-<!--  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_" /> -->
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -334,6 +334,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
+
 <!--  <project path="system/bluetooth" name="platform/system/bluetooth" /> -->
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
@@ -378,12 +379,10 @@
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
 
-<!--  <project path="system/bluetooth" name="PolishBloodProject/android_system_bluetooth" remote="github" revision="jb-4.2" /> -->
-  <project path="external/bluetooth/bluez" name="CyanogenMod/android_external_bluetooth_bluez" remote="fxp" revision="jellybean" />
-  <project path="external/bluetooth/glib" name="CyanogenMod/android_external_bluetooth_glib" remote="fxp" revision="jellybean" />
-  <project path="external/bluetooth/hcidump" name="CyanogenMod/android_external_bluetooth_hcidump" remote="fxp" revision="jellybean" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="fxp" revision="jellybean" />
+
+  <project path="system/bluetooth" name="PolishBloodProject/android_system_bluetooth" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Camera" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
+
 <!-- Devices and commons used by KXP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/haida" name="PolishBloodProject/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
