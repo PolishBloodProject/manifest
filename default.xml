@@ -334,7 +334,8 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/bluetooth" name="platform/system/bluetooth" />
+
+<!--  <project path="system/bluetooth" name="platform/system/bluetooth" /> -->
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
@@ -377,6 +378,8 @@
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+
+  <project path="system/bluetooth" name="PolishBloodProject/android_system_bluetooth" remote="github" revision="jb-4.2" />
 
 <!-- Devices and commons used by KXP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
