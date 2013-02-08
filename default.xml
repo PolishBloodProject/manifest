@@ -353,7 +353,7 @@
   <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="jb4.2" />
   <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
-  <project path="external/wpa_supplicant_8" name="Cyanogenmod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
   <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
 
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
