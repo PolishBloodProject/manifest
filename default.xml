@@ -336,7 +336,7 @@
   <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
   <project path="hardware/broadcom/wlan" name="Andromadus/android_hardware_broadcom_wlan" remote="github" revision="jb4.2" />
   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="jb4.2" />
-  <project path="hardware/libhardware_legacy" name="Andromadus/android_hardware_libhardware_legacy" remote="github" revision="jb4.2" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
@@ -353,7 +353,7 @@
   <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="jb4.2" />
   <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
-  <project path="external/wpa_supplicant_8" name="Andromadus/android_external_wpa_supplicant_8" remote="github" revision="jb4.2" />
+  <project path="external/wpa_supplicant_8" name="Cyanogenmod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
   <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
 
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
