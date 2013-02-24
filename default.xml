@@ -332,7 +332,7 @@
   </project>
   <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
   <project path="hardware/broadcom/wlan" name="Andromadus/android_hardware_broadcom_wlan" remote="github" revision="jb4.2" />
-    <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" revision="cm10.1" />
+   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
   <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="github" revision="jellybean" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
@@ -354,7 +354,7 @@
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
 
 
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
