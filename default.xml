@@ -7,20 +7,6 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
-  <remote  name="cm"
-           fetch="https://github.com/"
-           review="review.cyanogenmod.com" />
-
-  <remote name="kxp"
-           fetch="https://github.com/"
-           revision="jb"
-           review="smartdev.com.pl:8080" />
-
-  <remote name="fxp"
-           fetch="https://github.com/"
-           revision="jellybean"
-           review="review.cyanogenmod.com" />
-
   <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
@@ -42,6 +28,7 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" />
+  <project path="device/common" name="device/common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -56,7 +43,7 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/bzip2" name="platform/external/bzip2" />
@@ -118,7 +105,7 @@
   <project path="external/libgsm" name="platform/external/libgsm" />
   <project path="external/liblzf" name="platform/external/liblzf" />
   <project path="external/libmtp" name="platform/external/libmtp" />
-  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" revision="refs/tags/android-4.2.1_r1_" />
+  <project path="external/libnfc-nci" name="platform/external/libnfc-nci" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" />
   <project path="external/libogg" name="platform/external/libogg" />
@@ -218,21 +205,6 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.1" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -254,7 +226,7 @@
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
-  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" revision="refs/tags/android-4.2.1_r1___" />
+  <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
@@ -269,7 +241,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-10.1" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
@@ -293,7 +264,6 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -318,70 +288,85 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
+  <project path="system/media" name="platform/system/media" />
+  <project path="system/netd" name="platform/system/netd" />
+  <project path="system/security" name="platform/system/security" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
+ 
+ <project path="manifest" name="mt11/manifest" remote="github" revision="jb4.2" />
+
+  <project path="build" name="mt11/platform_build" remote="github" revision="jb4.2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
+  <project path="packages/inputmethods/LatinIME" name="CyanogenMod/android_packages_inputmethods_LatinIME" remote="github" revision="cm-10.1" />
+  <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.1" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="PolishBloodProject/android_hardware_msm7k" remote="github" revision="jb-4.2" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="github" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
+  <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
+  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="cm" revision="cm-101" />
+
+
+<!-- cm42semc -->
+
+  <project path="hardware/qcom/display-legacy" name="cm42semc/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="cm42semc/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="cm42semc/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
+
+<!-- Andromadus -->
+
+  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="jb4.2" />
+  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2">
+  <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="github" revision="jellybean" /> 
+  <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
+  <project path="frameworks/av" name="Andromadus/android_frameworks_av" remote="github" revision="jb4.2" />
+  <project path="frameworks/base" name="Andromadus/android_frameworks_base" remote="github" revision="jb4.2" />
+  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="jb4.2" />
+  <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
+  <project path="system/core" name="Andromadus/android_system_core" remote="github" revision="jb4.2" />
+  <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
+  <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
 
 <!-- PBP manifest -->
 
   <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="jb-4.2" />
 
-<!-- changed stuff to work with our msm7x30 -->
+<!-- Polishblood -->
 
-  <project path="build" name="PolishBloodProject/platform_build" remote="github" revision="jb-4.2" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-  <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
-  <project path="hardware/broadcom/wlan" name="Andromadus/android_hardware_broadcom_wlan" remote="github" revision="jb4.2" />
-   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
-  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
-  <project path="hardware/qcom/media" name="cm42semc/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
-  <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
-  <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb4.2" />
-  <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.2" />
-  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="jb4.2" />
-  <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.2" />
-  <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
-  <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
-  <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
-  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
-  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
-
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
-
-
-  <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
-
- <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.1" />
-  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-10.1" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.1" />
-  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-10.1" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.1" />
-  <project path="system/security" name="CyanogenMod/android_system_security" remote="github" revision="cm-10.1" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.1" />
-
-<!-- Devices and commons used by KXP -->
+  <project path="kernel/semc/msm7x30" name="PolishBloodProject/semc-kernel-msm7x30" remote="kxp" revision="mr1-staging" />
+  <project path="vendor/semc" name="PolishBloodProject/proprietary_vendor_semc" remote="fxp" revision="jb-4.2" />
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/haida" name="PolishBloodProject/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/mogami-common" name="PolishBloodProject/android_device_semc_mogami-common" remote="cm" revision="jb-4.2" />
   <project path="device/semc/msm7x30-common" name="PolishBloodProject/android_device_semc_msm7x30-common" remote="cm" revision="jb-4.2" />
-
-<!-- Additional SEMC hardware sources -->
-
-  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="jellybean"/>
-  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="fxp" revision="jellybean" />
-
-<!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="PolishBloodProject/semc-kernel-msm7x30" remote="kxp" revision="mr1-staging" />
-
-<!--Device vendor -->
-  <project path="vendor/semc" name="PolishBloodProject/proprietary_vendor_semc" remote="fxp" revision="jb-4.2" />
-
+  <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
+  <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
 
 </manifest>
