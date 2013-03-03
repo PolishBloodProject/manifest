@@ -21,7 +21,7 @@
            revision="jellybean"
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/tags/android-4.2.1_r1.2"
+  <default revision="refs/tags/android-4.2.2_r1"
            remote="aosp"
            sync-j="4" />
 
@@ -220,7 +220,7 @@
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="PolishBloodProject/android_hardware_msm7k" remote="github" revision="jb-4.2" />
+  <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.1" />
@@ -231,7 +231,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
@@ -318,14 +318,12 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/media" name="platform/system/media" />
-  <project path="system/netd" name="platform/system/netd" />
-  <project path="system/security" name="platform/system/security" />
   <project path="tools/build" name="platform/tools/build" groups="toolsbuild" />
   <project path="tools/motodev" name="platform/tools/motodev" />
 
 <!-- PBP manifest -->
 
+  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="jb-4.2" />
 
 <!-- changed stuff to work with our msm7x30 -->
 
@@ -334,43 +332,45 @@
   </project>
   <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
   <project path="hardware/broadcom/wlan" name="Andromadus/android_hardware_broadcom_wlan" remote="github" revision="jb4.2" />
-  <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="07af9b902495e174248d5a3fb2157d5d186c2770" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="4ab7bb48a4a0d4cecd4e3f5de6d88075a7b20f48" />
-  <project path="hardware/qcom/librpc" name="Andromadus/android_hardware_qcom_librpc" remote="github" revision="jellybean" />
+   <project path="hardware/libhardware" name="Andromadus/android_hardware_libhardware" remote="github" revision="cm10.1" />
+  <project path="hardware/libhardware_legacy" name="androidarmv6/android_hardware_libhardware_legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display" name="Andromadus/android_hardware_qcom_display" remote="github" revision="jb4.2" />
-  <project path="hardware/qcom/display-legacy" name="cm42semc/android_hardware_qcom_display-legacy" remote="github" revision="95becebbaf51422962c2b60a968eabae1363bc6a" />
   <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
-  <project path="hardware/qcom/media" name="Andromadus/android_hardware_qcom_media" remote="github" revision="jb4.2" />
-  <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="ae67953e93218859806918f20175693015fd8ecc" />
+  <project path="hardware/qcom/media" name="cm42semc/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
+  <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
   <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb4.2" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.2" />
-  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="8538fbdfb42a8a5c0831eee252fa6be43f2f6c79" />
+  <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="jb4.2" />
   <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.2" />
-  <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="e02247f4c53e1df4cac3a7b265ffb4307cca3650" />
-  <project path="system/core" name="Andromadus/android_system_core" remote="github" revision="39a8b3484b518ada5fdda8fa6d5bfd26dcbbe30e" />
-  <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="917e120f736f95292a40b6c7da9940d6369955e1" />
-  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="9e8561a059f554fb09120890407e7e67fb444a64" />
-  <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="2ac0b0d8de7ed85b71a8b92166cd870e44c1dbaa" />
-<!--  <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="aeb199ab00cb8f470a14f02fe2e67527ca72e737" /> -->
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
+  <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/DeskClock" name="Andromadus/android_packages_apps_DeskClock" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
   <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="github" revision="cm-10.1" />
-  <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="3fd60b428202a0f5f324fccc67c0c0402b9131ba" />
+  <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
 
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.1" />
 
 
-  <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
+
+ <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.1" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-10.1" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.1" />
+  <project path="system/media" name="CyanogenMod/android_system_media" remote="github" revision="cm-10.1" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.1" />
+  <project path="system/security" name="CyanogenMod/android_system_security" remote="github" revision="cm-10.1" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.1" />
 
 <!-- Devices and commons used by KXP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
-  <project path="device/semc/haida" name="htomasz/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
-  <project path="device/semc/mogami-common" name="htomasz/android_device_semc_mogami-common" remote="cm" revision="jb-4.2" />
-  <project path="device/semc/msm7x30-common" name="htomasz/android_device_semc_msm7x30-common" remote="cm" revision="jb-4.2" />
+  <project path="device/semc/haida" name="PolishBloodProject/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
+  <project path="device/semc/mogami-common" name="PolishBloodProject/android_device_semc_mogami-common" remote="cm" revision="jb-4.2" />
+  <project path="device/semc/msm7x30-common" name="PolishBloodProject/android_device_semc_msm7x30-common" remote="cm" revision="jb-4.2" />
 
 <!-- Additional SEMC hardware sources -->
 
