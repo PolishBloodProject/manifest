@@ -264,6 +264,7 @@
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -352,7 +353,6 @@
   <project path="system/core" name="Andromadus/android_system_core" remote="github" revision="jb4.2" />
   <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
   <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Settings" name="Andromadus/android_packages_apps_Settings" remote="github" revision="jb4.2" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
   <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
