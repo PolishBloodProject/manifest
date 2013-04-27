@@ -382,7 +382,7 @@
   <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="fxp" revision="jellybean" />
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="2011Xperia/semc-kernel-msm7x30" remote="kxp" revision="mr1-staging" />
+  <project path="kernel/semc/msm7x30" name="pcfighter/msm7x30-3.0.x-nAa" remote="github" revision="M7630AABBQMLZA404033I-nAa-master" />
 
 <!--Device vendor -->
   <project path="vendor/semc" name="PolishBloodProject/proprietary_vendor_semc" remote="fxp" revision="jb-4.2" />
