@@ -255,7 +255,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
@@ -357,7 +356,8 @@
   <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
   <project path="system/core" name="Andromadus/android_system_core" remote="github" revision="jb4.2" />
   <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
-  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/LegacyCamera" name="CyanogenMod/android_packages_apps_LegacyCamera" remote="github" revision="cm-10.1" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
   <project path="external/wpa_supplicant_8_ti" name="CyanogenMod/android_external_wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
   <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
@@ -369,7 +369,7 @@
 
 
   <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
-  <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-10.1" />
 
 <!-- Devices and commons used by KXP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
