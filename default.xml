@@ -324,7 +324,7 @@ this avoids merging conflicts from AOSP manifest
   <project path="vendor/PolishBlood" name="PolishBloodProject/platform_vendor_PolishBlood" remote="gh" revision="jb" />
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="KangXperiaProject/android_kernel_semc_msm7x30" remote="kxp" revision="jb" />
+  <project path="kernel/semc/msm7x30" name="PolishBloodProject/msm7x30-3.0.x-nAa" remote="gh" revision="jb" />
 
 <!-- Unofficial packages that we like adding to our ROM ;) -->
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="jellybean" />
