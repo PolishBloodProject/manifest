@@ -310,16 +310,18 @@ if any repository is replaced, then remove it out above and add new one below
 this avoids merging conflicts from AOSP manifest
 ==========================================================================================================================
 -->
+
+<!-- manifest -->
+  <project path="manifest" name="PolishBloodProject/manifest" remote="gh" revision="jb" />
+
 <!-- Devices and commons used by PolishBlood -->
-  <project path="device/semc/haida" name="KangXperiaProject/android_device_semc_haida" remote="kxp" revision="jb" />
-<!-- cos i need to make a repo
- <project path="device/semc/coconut" name="KangXperiaProject/android_device_semc_coconut" remote="kxp" revision="jb" /> -->
-  <project path="device/semc/mogami-common" name="CyanogenMod/android_device_semc_mogami-common" remote="cm" revision="jellybean" />
-  <project path="device/semc/msm7x30-common" name="CyanogenMod/android_device_semc_msm7x30-common" remote="cm" revision="jellybean" />
+  <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="gh" revision="jellybean" />
+  <project path="device/semc/mogami-common" name="PolishBloodProject/android_device_semc_mogami-common" remote="gh" revision="jb" />
+  <project path="device/semc/msm7x30-common" name="PolishBloodProject/android_device_semc_msm7x30-common" remote="gh" revision="jb" />
 
 <!-- Vendors -->
   <project path="vendor/semc" name="TheMuppets/proprietary_vendor_semc" remote="fxp" revision="jellybean" />
-  <project path="vendor/PolishBlood" name="mikegapinski/platform_vendor_PolishBlood" remote="gh" revision="jellybean" />
+  <project path="vendor/PolishBlood" name="PolishBloodProject/platform_vendor_PolishBlood" remote="gh" revision="jb" />
 
 <!--Device kernels -->
   <project path="kernel/semc/msm7x30" name="KangXperiaProject/android_kernel_semc_msm7x30" remote="kxp" revision="jb" />

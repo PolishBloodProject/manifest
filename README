@@ -1,0 +1,7 @@
+Just do
+
+$ repo init -u https://github.com/PolishBloodProject/manifest.git -b jb
+
+then
+
+$ repo sync
