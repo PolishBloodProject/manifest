@@ -29,6 +29,7 @@
   <project path="bionic" name="platform/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="bootable/recovery" name="platform/bootable/recovery" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
@@ -368,7 +369,6 @@
 
   <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
 
-  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="github" revision="twrp2.5" />
 <!-- Devices and commons used by KXP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/haida" name="PolishBloodProject/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
