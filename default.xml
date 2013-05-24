@@ -360,7 +360,7 @@
   <project name="LegacyXperia/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
   
   <!-- Build iw from source -->
-  <project name="br101/android_external_iw" path="external/iw" revision="master" />
+  <project name="br101/android_external_iw" path="external/iw" remote="github" revision="master" />
 
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
   <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
