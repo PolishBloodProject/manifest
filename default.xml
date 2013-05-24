@@ -21,7 +21,7 @@
            revision="jellybean"
            review="review.cyanogenmod.com" />
 
-  <default revision="refs/tags/android-4.2.2_r1.1"
+  <default revision="refs/tags/android-4.2.2_r1.2"
            remote="aosp"
            sync-j="4" />
 
@@ -375,7 +375,7 @@
   <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="cm-10.1" />
 
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="cm" revision="cm-10.1" />
-<!-- Devices and commons used by KXP -->
+<!-- Devices and commons used by PBP -->
   <project path="device/semc/coconut" name="PolishBloodProject/android_device_semc_coconut" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/haida" name="PolishBloodProject/android_device_semc_haida" remote="kxp" revision="jb-4.2" />
   <project path="device/semc/mogami-common" name="PolishBloodProject/android_device_semc_mogami-common" remote="cm" revision="jb-4.2" />
@@ -384,10 +384,9 @@
 <!-- Additional SEMC hardware sources -->
 
   <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="jellybean"/>
-  <project path="hardware/ti/fmradio" name="CyanogenMod/android_hardware_ti_fmradio" remote="fxp" revision="jellybean" />
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="PolishBloodProject/msm7x30-3.0.x-nAa" remote="github" revision="jb-4.2" />
+  <project path="kernel/semc/msm7x30" name="LegacyXperia/msm7x30-3.4.x-nAa" remote="github" revision="cm-10.1" />
 
 <!--Device vendor -->
   <project path="vendor/semc" name="PolishBloodProject/proprietary_vendor_semc" remote="fxp" revision="jb-4.2" />
