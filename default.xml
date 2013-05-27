@@ -406,7 +406,7 @@
 
 <!--Device vendor -->
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-10.1" />
-  <project path="vendor/PolishBlood" name="PolishBloodProject/platform_vendor_PolishBlood" remote="github" revision="jb" />
+  <project path="vendor/PolishBlood" name="PolishBloodProject/platform_vendor_PolishBlood" remote="github" revision="jb-4.2" />
   
 
 
