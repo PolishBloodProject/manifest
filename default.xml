@@ -361,9 +361,7 @@
   <!-- Build iw from source -->
   <project name="br101/android_external_iw" path="external/iw" remote="github" revision="master" />
 
-  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="github" revision="cm-10.1" />
   <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
-  <project path="system/su" name="CyanogenMod/android_system_su" remote="github" revision="cm-10.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
 
