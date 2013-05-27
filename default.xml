@@ -382,7 +382,7 @@
 <!-- Devices and commons used by PBP -->
 
   <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="cm-10.1" />
-  <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="cm-10.1" />
+  <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.2" />
 
   <project name="PolishBloodProject/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="cm-10.1" />
   <project name="PolishBloodProject/android_device_semc_haida" path="device/semc/haida" remote="github" revision="cm-10.1" />
