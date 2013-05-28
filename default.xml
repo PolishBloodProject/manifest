@@ -331,7 +331,7 @@
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
-  <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="cm-10.1" />
+  <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb-4.2" />
   <project path="frameworks/base" name="Andromadus/android_frameworks_base" remote="github" revision="jb4.2" />
   <project path="frameworks/native" name="Andromadus/android_frameworks_native" remote="github" revision="jb4.2" />
   <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.2" />
