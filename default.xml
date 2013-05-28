@@ -316,7 +316,7 @@
 
 <!-- We need that for sucessful AOSP -->
 
-  <project path="build" name="KangXperiaProject/android_build" remote="github" revision="jb-mr1" >
+  <project path="build" name="PolishBloodProject/android_build" remote="github" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
