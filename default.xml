@@ -358,7 +358,7 @@
   
   <project path="packages/apps/Launcher2" name="PolishBloodProject/android_packages_apps_Launcher2" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="jb-4.2" />
-  <project path="packages/apps/Camera" name="Andromadus/android_packages_apps_Camera" remote="github" revision="jb4.2" />
+  <project path="packages/apps/Camera" name="PolishBloodProject/android_packages_apps_Camera" remote="github" revision="jb4.2" />
     
   <!-- Build iw from source -->
   <project name="br101/android_external_iw" path="external/iw" remote="github" revision="master" />
