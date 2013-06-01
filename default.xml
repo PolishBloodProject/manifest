@@ -387,21 +387,21 @@
   <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="jb-4.2" />
   <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.2" />
 
-  <project name="PolishBloodProject/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="cm-10.1" />
-  <project name="PolishBloodProject/android_device_semc_haida" path="device/semc/haida" remote="github" revision="cm-10.1" />
-  <project name="PolishBloodProject/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="cm-10.1" />
-  <project name="PolishBloodProject/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="cm-10.1" />
-  <project name="PolishBloodProject/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="cm-10.1" />
+  <project name="PolishBloodProject/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="jb-4.2" />
+  <project name="PolishBloodProject/android_device_semc_haida" path="device/semc/haida" remote="github" revision="jb-4.2" />
+  <project name="PolishBloodProject/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="jb-4.2" />
+  <project name="PolishBloodProject/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="jb-4.2" />
+  <project name="PolishBloodProject/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="jb-4.2" />
 
-  <project name="PolishBloodProject/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="cm-10.1" />
+  <project name="PolishBloodProject/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="jb-4.2" />
   <project name="PolishBloodProject/android_device_semc_mango" path="device/semc/mango" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="cm-10.1" />
+  <project name="PolishBloodProject/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="jb-4.2" />
   <project name="PolishBloodProject/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="jb-4.2" />
   
 
 <!-- Additional SEMC hardware sources -->
 
-  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="jellybean"/>
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="cm-10.1"/>
 
 <!--Device kernels -->
   <project path="kernel/semc/msm7x30" name="LegacyXperia/msm7x30-3.4.x-nAa" remote="github" revision="cm-10.1" />
