@@ -387,16 +387,16 @@
   <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="jb-4.2" />
   <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.2" />
 
-  <project name="PolishBloodProject/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_haida" path="device/semc/haida" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="jb-4.2" />
 
-  <project name="PolishBloodProject/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_mango" path="device/semc/mango" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="jb-4.2" />
+  <project name="LegacyXperia/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="jb-4.2" />
   
 
 <!-- Additional SEMC hardware sources -->
