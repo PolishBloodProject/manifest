@@ -322,7 +322,8 @@
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/display-legacy" name="PolishBloodProject/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="Andromadus/android_hardware_qcom_audio" remote="github" revision="Andro4.2" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
@@ -369,7 +370,7 @@
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
 
 
-  <project path="system/bluetooth" name="PolishBloodProject/platform_system_bluetooth" remote="github" revision="jb-4.2" />
+  <project path="system/bluetooth" name="CyanogenMod/platform_system_bluetooth" remote="github" revision="cm-10.1" />
 
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
