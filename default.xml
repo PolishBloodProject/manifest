@@ -351,7 +351,8 @@
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="jellybean" />
+  
+  <project name="LegacyXperia/android_hardware_ti_wlan" path="hardware/ti/wlan" revision="cm-10.1-omapzoom"/>
   
   <project name="LegacyXperia/android_hardware_ti_wpan" path="hardware/ti/wpan" remote="github" revision="cm-10.1" />
   <project name="LegacyXperia/android_external_wpa_supplicant_8_ti" path="external/wpa_supplicant_8_ti" remote="github" revision="cm-10.1" />
