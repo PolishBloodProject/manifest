@@ -332,7 +332,7 @@
 
 <!-- PBP manifest -->
 
-  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="jb-4.2" />
+  <project path="manifest" name="PolishBloodProject/manifest" remote="github" revision="jb-4.3" />
 
 <!-- We need that for sucessful AOSP -->
 
