@@ -350,7 +350,7 @@
   <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.3" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.2" />
+  <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.3" />
   <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
   <project path="system/core" name="AOKP/system_core" remote="github" revision="jb-mr1" />
   <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
