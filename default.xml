@@ -335,7 +335,7 @@
   <project path="build" name="CyanogenMod/android_build" remote="github" revision="cm-10.2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="device/common" name="PolishBloodProject/android_device_common" remote="github" revision="master" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="github" revision="cm-10.2" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="github" revision="cm-10.2" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="github" revision="cm-10.2" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-10.2" />
@@ -351,16 +351,16 @@
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.3" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
-  <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
-  <project path="system/core" name="AOKP/system_core" remote="github" revision="jb-mr1" />
-  <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
-  <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
-  <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="cm-10.2" />
+  <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-10.2" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-10.2" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.2" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" />
   
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.2" />
-  <project path="hardware/msm7k" name="PolishBloodProject/android_hardware_msm7k" remote="github" revision="jb-4.2" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
@@ -387,8 +387,8 @@
 
   <project name="koush/Superuser" path="external/koush/Superuser" remote="github" revision="master" />
   <project name="koush/Widgets" path="external/koush/Widgets" remote="github" revision="master" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="jellybean" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.2" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="github" revision="cm-10.2" />
 
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" />
