@@ -396,7 +396,7 @@
 
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
 
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" />
