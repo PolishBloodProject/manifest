@@ -363,7 +363,7 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.2" />
   <project path="hardware/msm7k" name="PolishBloodProject/android_hardware_msm7k" remote="github" revision="jb-4.2" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.2" />
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.2" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" remote="cm" revision="cm-10.2" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="cm" revision="cm-10.2" />
