@@ -208,7 +208,6 @@
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="platform/frameworks/native" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -353,6 +352,7 @@
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-10.2" />
   <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.3" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.2" />
   <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="cm-10.2" />
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-10.2" />
