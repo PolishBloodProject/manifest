@@ -347,11 +347,9 @@
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/display-legacy" name="arco/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-10.2" />
-  <project path="hardware/qcom/media-legacy" name="arco/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.1" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="github" revision="cm-10.2" />
   <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb-4.3" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.3" />
@@ -362,6 +360,8 @@
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-10.2" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" remote="github" revision="cm-10.2" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.2" />
+  <project name="LegacyXperia/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" revision="cm-10.2" />
   
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="cm" revision="cm-10.2" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="cm" revision="cm-10.2" />
