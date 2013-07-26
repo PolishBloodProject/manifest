@@ -398,9 +398,9 @@
 
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" remote="github" revision="cm-10.2" />
 
-  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="cm-10.1" />
-  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.1" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
+  <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" remote="cm" revision="cm-10.2" />
+  <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="cm" revision="cm-10.2" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.2" />
 
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.2" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.2" />
@@ -414,27 +414,27 @@
   <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="jb-4.2" />
   <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.2" />
 
-  <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="cm-10.1" />
+  <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_hallon" path="device/semc/hallon" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_iyokan" path="device/semc/iyokan" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_urushi" path="device/semc/urushi" remote="github" revision="cm-10.2" />
 
-  <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="cm-10.1" />
-  <project name="LegacyXperia/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="cm-10.1" />
+  <project name="LegacyXperia/android_device_semc_coconut" path="device/semc/coconut" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_mango" path="device/semc/mango" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_satsuma" path="device/semc/satsuma" remote="github" revision="cm-10.2" />
+  <project name="LegacyXperia/android_device_semc_smultron" path="device/semc/smultron" remote="github" revision="cm-10.2" />
   
 
 <!-- Additional SEMC hardware sources -->
 
-  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="cm-10.1"/>
+  <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="cm-10.2"/>
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="LegacyXperia/msm7x30-3.4.x-nAa" remote="github" revision="cm-10.1" />
+  <project path="kernel/semc/msm7x30" name="LegacyXperia/msm7x30-3.4.x-nAa" remote="github" revision="cm-10.2" />
 
 <!--Device vendor -->
-  <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-10.1" />
+  <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-10.2" />
   <project path="vendor/PolishBlood" name="PolishBloodProject/platform_vendor_PolishBlood" remote="github" revision="jb-4.3" />
   
 
