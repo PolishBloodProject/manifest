@@ -26,7 +26,6 @@
            sync-j="4" />
 
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="platform/bionic" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
@@ -384,6 +383,7 @@
   <project path="packages/apps/Gallery2" name="PolishBloodProject/android_packages_apps_Gallery2" remote="github" revision="jb-4.2" />
   <project path="packages/apps/Camera" name="PolishBloodProject/android_packages_apps_Camera" remote="github" revision="jb4.2" />
   <project path="packages/apps/Settings" name="PolishBloodProject/android_packages_apps_Settings" remote="github" revision="jb-4.3" />
+  <project path="bionic" name="PolishBloodProject/platform_bionic" remote="github" revision="jb-4.3" />
     
   <!-- Build iw from source -->
   <project name="br101/android_external_iw" path="external/iw" remote="github" revision="master" />
