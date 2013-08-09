@@ -412,8 +412,8 @@
   <project name="LegacyXperia/prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.7" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" remote="github" revision="cm-10.2" />
 <!-- Devices and commons used by PBP -->
 
-  <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="jb-4.2" />
-  <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.2" />
+  <project name="PolishBloodProject/android_device_semc_msm7x30-common" path="device/semc/msm7x30-common" remote="github" revision="jb-4.3" />
+  <project name="PolishBloodProject/android_device_semc_mogami-common" path="device/semc/mogami-common" remote="github" revision="jb-4.3" />
 
   <project name="LegacyXperia/android_device_semc_anzu" path="device/semc/anzu" remote="github" revision="cm-10.2" />
   <project name="LegacyXperia/android_device_semc_haida" path="device/semc/haida" remote="github" revision="cm-10.2" />
