@@ -28,7 +28,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="platform/bionic" />
   <project path="cts" name="platform/cts" />
-  <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
@@ -330,10 +329,11 @@
   <project path="hardware/ril" name="Andromadus/android_hardware_ril" remote="github" revision="jb4.2" />
   <project path="frameworks/av" name="PolishBloodProject/android_frameworks_av" remote="github" revision="jb-4.2" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.2" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.1" />
+  <project path="frameworks/native" name="PolishBloodProject/android_frameworks_native" remote="github" revision="cm-10.1" />
   <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb4.2" />
   <project path="external/webkit" name="Andromadus/android_external_webkit" remote="github" revision="jb4.2" />
-  <project path="system/core" name="AOKP/system_core" remote="github" revision="jb-mr1" />
+  <project path="system/core" name="PolishBloodProject/system_core" remote="github" revision="jb-mr1" />
+  <project path="dalvik" name="PolishBloodProject/platform_dalvik" remote="github" revision="jb-4.2" />
   <project path="system/extras" name="Andromadus/android_system_extras" remote="github" revision="jb4.2" />
   <project path="external/chromium" name="Andromadus/android_external_chromium" remote="github" revision="jb4.2" />
   <project path="system/vold" name="Andromadus/android_system_vold" remote="github" revision="jb4.2" />
