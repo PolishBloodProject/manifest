@@ -214,6 +214,7 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
+  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="platform/frameworks/rs" />
@@ -350,7 +351,6 @@
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-10.2" />
   <project path="frameworks/base" name="PolishBloodProject/android_frameworks_base" remote="github" revision="jb-4.3" />
   <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-10.2" />
-  <project path="frameworks/opt/telephony" name="PolishBloodProject/android_frameworks_opt_telephony" remote="github" revision="jb-4.3" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="cm-10.2" />
   <project path="system/core" name="CyanogenMod/android_system_core" remote="github" revision="cm-10.2" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-10.2" />
