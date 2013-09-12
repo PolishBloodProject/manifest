@@ -54,7 +54,6 @@
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -389,6 +388,7 @@
   <!-- Build iw from source -->
   <project name="br101/android_external_iw" path="external/iw" remote="github" revision="master" />
 
+  <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/Superuser" path="external/koush/Superuser" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/Widgets" path="external/koush/Widgets" remote="github" revision="cm-10.2" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-10.2" />
