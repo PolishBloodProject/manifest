@@ -405,7 +405,7 @@
   <project path="hardware/semc/dash" name="CyanogenMod/android_hardware_sony_DASH" remote="fxp" revision="cm-10.1"/>
 
 <!--Device kernels -->
-  <project path="kernel/semc/msm7x30" name="LegacyXperia/msm7x30-3.4.x-nAa" remote="github" revision="cm-10.1" />
+  <project path="kernel/semc/msm7x30" name="PolishBloodProject/msm7x30-3.4.x-nAa" remote="github" revision="jb-4.2" />
 
 <!--Device vendor -->
   <project path="vendor/semc" name="LegacyXperia/proprietary_vendor_semc" remote="github" revision="cm-10.1" />
